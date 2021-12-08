@@ -1,11 +1,45 @@
+.titleBar {
+  /* background-color: #000; */
+  display: block;
+  color: #fff;
+  padding-left: 16px;
+
+}
+
+/* input {
+  background-color: '#000';
+  display: 'block';
+  color: '#fff';
+  padding-left: 16px;
+} */
+
+p {
+  color:  #282828;
+}
+
+img {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 .colorOne {
+  color: #fa2424;
+}
+
+h1 .colorTwo {
+  color: #282828;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,7 +48,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff; 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
